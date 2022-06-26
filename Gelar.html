@@ -1,34 +1,404 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
-  <body>
-    <style>
-      mjx-container {
-        line-height: 2 !important;
-      }
-  
-      p.a {
-        text-indent: 50px;
-        text-align: justify;
-      }
-  
-      p.b {
-        text-align: justify;
-      }
-  
-      code {
-        text-align: center;
-        display: block;
-        font-weight: bold;
-      }
-    </style>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Contoh Soal & Pembahasan</title>
+</head>
+
+<body>
+  <style>
+    mjx-container {
+      line-height: 2 !important;
+    }
+
+    p.a {
+      text-indent: 50px;
+      text-align: justify;
+    }
+
+    p.b {
+      text-align: justify;
+    }
+
+    code {
+      text-align: center;
+      display: block;
+      font-weight: bold;
+    }
+  </style>
+  <!-- 
+        <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+          \(\sum 2x + 1\) so if you want to put something in your page</p> -->
+  <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light my-2">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Contoh Soal & Pembahasan</a>
+      </div>
+    </nav>
+    <!-- Soal 1 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 1
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan Grafik (v-t) dibawah ini </p>
+        <div class="text-center">
+          <img src="https://i.ibb.co/k0rYQvj/soal-1.png" alt="" class="img-fluid">
+          <p class="b">Kecepatan mobil setelah 5 sekon adalah . . .  </p>
+        </div>
+        <ol style="list-style-type: upper-alpha">
+          <li>-2 m/s</li>
+          <li>-3 m/s</li>
+          <li>-4 m/s</li>
+          <li>-9 m/s</li>
+          <li>-6 m/s</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan1" role="button" aria-expanded="false"
+          aria-controls="pembahasan1">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan1">
+          <div class="card card-body">
+            <h5>Jawaban : D</h5>
+            <p class="b">Pada gambar di atas dapat dilihat kecepatan awal 6m/s dan waktu 2 sekon sehingga dapat diperoleh percepatan dengan menggunakan persamaan :
+            </p>
+            \(a = \frac{V-V_0}{t} = \frac{0-6}{2}=-3m/s^2\)
+            <p class="b">Percepatan negatif artinya menunjukan perlambatan. Maka kecepatan mobil setelah 5 sekon adalah:</p>
+            \( V= V_0 +a.t \)
+            <p class="b">\( V= 6m/s + (-3m/s^2) . 5s \) </p>
+            <p class="b">\(-9 = 6m/s - 15m/s \)</p>
+            <p class="b"> Jadi mobil mengalami perlambatan setelah 5 sekon menjadi -9 m/s
+        </div>
+      </div>
+    </div>
+    <!-- Soal 2 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 2
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah bola mula-mula dalam keadaan diam pada lantai yang licin
+          kemudian bola didorong sehingga mengalami percepatan sebesar 4m/s<sup>2</sup>
+          tentukan kecepatan bola setelah bergerak selama 8 sekon!
+        </p>
+        <ol style="list-style-type: upper-alpha">
+          <li>32m/s</li>
+          <li>16m/s</li>
+          <li>64m/s</li>
+          <li>20m/s</li>
+          <li>40m/s</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan2" role="button" aria-expanded="false"
+          aria-controls="pembahasan2">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan2">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b">Untuk menentukan kecepatan bola setelah bergerak dari posisi diam dapat menggunakan persamaan sebagai berikut :</p>
+            \(V_t = V_0 + a.t = 0 + (4.8) = 32 m/s\)
+            <p class="b">Sehingga Kecepatan bola setelah bergerak selama 8 sekon adalah
+            </p>
+            <p class="b fw-bold">32m/s</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 3 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 3
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah kereta bergerak dengan kecepatan kosntan 30 m/s. Kereta mengalami perlambatan 4m/s<sup>2</sup>
+          hingga berhenktu yang dibutuhkan kereta hingga berhenti di stasiun adalah . . . </p>
+        <div class="text-center">
+        </div>
+        <ul style="list-style-type: upper-alpha;">
+          <li>6,5s</li>
+          <li>7,5s</li>
+          <li>10s</li>
+          <li>4s</li>
+          <li>8s</li>
+        </ul>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan3" role="button" aria-expanded="false"
+          aria-controls="pembahasan3">
+          Pembahasan
+        </a>
+        </p>
+        <div class="collapse" id="pembahasan3">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b">Dari soal di atas kecepatan awal kereta adalah 30m/s, percepatan kereta -4m/s<sup>2</sup> (negatif dikarenakan melakukan perlambatan) sehingga diperhitungkan
+              sebagai berikut:</p>
+              \(t = \frac{V-V_0}{a} \)
+              \(t = \frac{0-30m/s}{-4m/s^2} =6,5s\)
+            <p class="b">Kereta memerlukan waktu 6,5 sekon hingga berhenti</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 4 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 4
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah bola dilempar vertikal ke bawah dari sebuah bangunan bertingkat dengan kelajuan 
+          awal 10 m/s dan tiba di tanah setelah  2 sekon. Berapa kelajuan bola ketika 
+          menyentuh tanah ? (g = 10 m/s<sup>2</sup>)</p>
+        <div class="text-center">
+        </div>
+        <ol style="list-style-type: upper-alpha;">
+          <li>20 m/s </li>
+          <li>30 m/s </li>
+          <li>40 m/s </li>
+          <li>50 m/s</li>
+          <li>65 m/s</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan4" role="button" aria-expanded="false"
+          aria-controls="pembahasan4">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan4">
+          <div class="card card-body">
+            <h5>Jawaban B</h5>
+            <p class="b">Untuk mengetahui kelajuan bola ketika menyentuh tanah dapat digunakan persamaan berikut : 
+            </p>
+            \(V_t = V_0 + gt\)
+                \(V_t = 10 + (10.2)\)
+                \(V_t = 10 + 20\)
+                \(V_t = 30m/s\)
+                Maka kelajuan bola ketika menyentuh tanah ada sebesar 30m/s
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 5 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 5
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah batu dilempar ke dalam sumur dengan kelajuan awal 5 m/s dan menyentuh permukaan air sumur 
+          setelah 2 sekon. Berapakah kedalam sumur? (g = 10m/s<sup>2</sup>).</p>
+        <div class="text-center">
+        </div>
+        <ol style="list-style-type: upper-alpha;">
+          <li>30 Meter</li>
+          <li>25 Meter</li>
+          <li>50 Meter </li>
+          <li>60 Meter </li>
+          <li>15 Meter</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan5" role="button" aria-expanded="false"
+          aria-controls="pembahasan5">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan5">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b"> Untuk menentukan kedalam sumur dapat digunakan persamaan berikut :</p>
+            \(h=V_0 t + \frac{1}{2} gt^2\)
+            \(h=(5)(2) + \frac{1}{2} (10)(2)^2\)
+            \(h=10 + (5)(4)\)
+            \(h=10 + 20\)
+            \(h=30 meter\)
+            Maka kedalaman sumur tersebut adalah 30 meter 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 6 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 6
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah bola dilemparkan ke atas dengan kecepatan awal 30 m/s. Jika Percepatan
+          gravitasinya adalah 10m/s<sup>2</sup>, berapa waktu yang dibutuhkan untuk mencapai titik tertingginya?
+        </p>
+        <ol style="list-style-type:upper-alpha">
+          <li>9 s</li>
+          <li>4 s</li>
+          <li>5 s</li>
+          <li>18 s</li>
+          <li>3 s</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan6" role="button" aria-expanded="false"
+          aria-controls="pembahasan6">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan6">
+          <div class="card card-body">
+            <h5>Jawaban : E</h5>
+            <p class="b">Pada kejadian tersebut diketahui bahwa kecepatan awal bola 30m/s dengan gravitasi 10m/s<sup>2</sup>. 
+            Maka untuk menentukan waktu yang dibutuhkan untuk mencapai titik tertingginya adalah sebagai berikut:</p>
+            \(V_t = V_0 - g.t\)
+            \(0 = 30-10.t\)
+            \(10t = 30\)
+            \(t = \frac{30}{10}\)
+            \(t=3s\)
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 7 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 7
+      </div>
+      <div class="card-body">
+        <p class="A">Sebuah mobil berjalan di tol dengan kelajuan 80km/jam. Jika mobil berhenti di gerbang tol 
+          untuk membayar, maka tentukanlah perlambatan yang harus dimiliki mobil jika mobil mulai mengerem saat berjarak
+          4km dari gerbang tol
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>0,06m/s<sup>2</sup></li>
+          <li>0.6m/s<sup>2</sup></li>
+          <li>6m/s<sup>2</sup></li>
+          <li>60 m/s<sup>2</sup> </li>
+          <li>0,006m/s<sup>2</sup></li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan7" role="button" aria-expanded="false"
+          aria-controls="pembahasan7">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan7">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b">Untuk mengetahui Perlambatan yang diperlukan mobil dapat menggunakan perhitungan sebagai berikut : </p>
+            \(V^2 = Vo^2+2a.s\)
+            \(0 = 80^2+2.a.4\)
+            \(6400 = -8.a\)
+            \(a = /frac{-6400}{2.4} = -800km/jam^2\)
+            \(a = -0,06 m/s^2\) 
+
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 8 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 8
+      </div>
+      <div class="card-body">
+        <p class="b"> Sebuah benda ditembakan vertikal ke atas dengan kecepatan awal 200m/s
+          dan percepatan gravitasinya 10m/s<sup>2</sup>. Berapakah ketinggian maksimum yang dicapai benda?
+        </p>
+        <div class="text-center">
+        </div>
+        <ol style="list-style-type: upper-alpha;">
+          <li>2000m </li>
+          <li>1500m </li>
+          <li>4000m </li>
+          <li>1000m </li>
+          <li>1250m </li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan8" role="button" aria-expanded="false"
+          aria-controls="pembahasan8">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan8">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b">Pada kejadian tersebut sudah diketahui bahwa kecepatan mula mula benda adalah 200m/s 
+              dengan gratvitasi 10m/s<sup>2</sup>. Sehingga untuk menentukan ketinggian maksimum dapat menggunakan persamaan berikut:
+              
+            </p>
+            \(Hmax = \frac{V_o^2}{2g}\)
+            \(Hmax = \frac{200^2}{2(10)}\)
+            \(Hmax = \frac{40000}{20}\)
+            \(Hmax = 2000m\)
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+          <!-- Soal 9 -->
+        Contoh Soal 9
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan Grafik Berikut!</p>
+          <div class="text-center">
+          <img src="https://i.ibb.co/Wkwqg02/Soal-9.png" alt="" class="img-fluid"></div>
+          <p class="b">Jika diketahui luas daerah yang diarsir adalah 70m, maka percepatan yang dilakukan 
+            benda adalah . . . 
+          </p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>1 m/s</li>
+          <li>5 m/s</li>
+          <li>1,5 m/s</li>
+          <li>1,25 m/s</li>
+          <li>2 m/s </li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan9" role="button" aria-expanded="false"
+          aria-controls="pembahasan9">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan9">
+          <div class="card card-body">
+            <h5>Jawaban : D</h5>
+            <p class="b">Dari grafik diatas dapat dilihat jika kecepatan awal benda tersebut sebesar 15m/s dan waktu 4 sekon. 
+              Selain itu pada pertanyaan sudah diketahui jika luas daerah yang diarsir sebesar 70m. 
+              Sehingga, Untuk menentukan percepatan yang dilakukan oleh benda hanya perlu menggunakan persamaan berikut :
+            </p>
+            \(S = V_0.t + \frac{1}{2}.a.t^2\)
+            \(70 = 15.4 +\frac{1}{2}.a.4^2\)
+            \(70 = 60+8a \)
+            \(70 - 60 = 8a \)
+            \(a = \frac{10}{8}\)
+            \(a = 1,25m/s^2\)
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 10
+      </div>
+      <div class="card-body">
+        <p class="b">Sebuah Batu dilepaskan dari ketinggian 20 meter di atas tanah (g=10m/s<sup>2</sup>)berapakah kecepatan Batu
+        ketika mencapai ketinggian 15 meter diatas tanah? </p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>10m/s </li>
+          <li>15m/s </li>
+          <li>5m/s </li>
+          <li>20m/s </li>
+          <li>25m/s </li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan10" role="button" aria-expanded="false"
+          aria-controls="pembahasan10">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan10">
+          <div class="card card-body">
+            <h5>Jawaban : A</h5>
+            <p class="b">Sebelum mencari kecepatan batu , kita perlu mencari ketinggiannya terlebih dahulu menggunakan persamaan berikut: </p>
+            \(h = h1-h2\)
+            \(h = 5\)
+            <p class="b">Setelah mengetahui tingginya kita dapat mensubstitusikannya
+               kedalam persamaan berikut untuk memperoleh kecepatan batu  : </p>
+            \(Vt^2 = 2gh\)
+            \(Vt^2 = 2.10.5\)
+            \(Vt^2 = 100 \)
+            \(Vt = \sqrt {100}\)
+            \(Vt = 10m/s\)
+            <p class="b"> Kecepatan batu pada saat di ketinggian 15meter dibawah tanah adalah 10m/s</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
 </html>
