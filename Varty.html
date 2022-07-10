@@ -1,34 +1,436 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
-  <body>
-    <style>
-      mjx-container {
-        line-height: 2 !important;
-      }
-  
-      p.a {
-        text-indent: 50px;
-        text-align: justify;
-      }
-  
-      p.b {
-        text-align: justify;
-      }
-  
-      code {
-        text-align: center;
-        display: block;
-        font-weight: bold;
-      }
-    </style>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <title>Contoh Soal & Pembahasan</title>
+</head>
+
+<body>
+  <style>
+    mjx-container {
+      line-height: 2 !important;
+    }
+
+    p.a {
+      text-indent: 50px;
+      text-align: justify;
+    }
+
+    p.b {
+      text-align: justify;
+    }
+
+    code {
+      text-align: center;
+      display: block;
+      font-weight: bold;
+    }
+  </style>
+  <!-- 
+        <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+          \(\sum 2x + 1\) so if you want to put something in your page</p> -->
+  <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light my-2">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Contoh Soal & Pembahasan</a>
+      </div>
+    </nav>
+    <!-- Soal 1 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">Contoh Soal 1</div>
+      <div class="card-body">
+        <p class="b">Bacalah pernyataan berikut ini dengan seksama! </p>
+        <ol>
+          <li>Memiliki tempat penyemaian</li>
+          <li>Membuat bedeng untuk persemaian</li>
+          <li>Memberikan atap tempat persemaian</li>
+          <li>Menyemai benih</li>
+          <li>Pemeliharaan benih.</li>
+        </ol>
+        <p class="b">Berdasarkan langkah-langkah di atas, urutan pembibitan tanaman adalah:</p>
+        <ol style="list-style-type: upper-alpha">
+          <li>1, 5, 2</li>
+          <li>1, 4, 5</li>
+          <li>2, 4, 5</li>
+          <li>2, 3, 4</li>
+          <li>2, 3, 5</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan1" role="button" aria-expanded="false"
+          aria-controls="pembahasan1"> Pembahasan </a>
+        <div class="collapse" id="pembahasan1">
+          <div class="card card-body">
+            <h5>Jawaban: D</h5>
+            <p class="b">Langkah-langkah merupakan salah satu bagian dari struktur teks prosedur yang merupakan cara
+              yang ditempuh agar tujuan itu tercapai, dan bagian langkah ini merupakan urutan yang tidak dapat diubah
+              langkahnya sehingga ketika seseorang melakukan aktivitas atau kegiatan secara benar.</p>
+            <p class="b">Berdasarkan penjelasan di atas, maka bagian inti dari langkah pembibitan tanaman adalah langkah
+              nomor:</p>
+            <ul>
+              <li>
+                (2) Membuat bedeng persemaian.
+              </li>
+              <li>
+                (3) Memberi atap tempat persemaian.
+              </li>
+              <li>
+                (4) Menyemai benih.
+              </li>
+            </ul>
+            Langkah nomor 2, 3, dan 4 tersebut merupakan bagian inti dari langkah pembibitan tanaman karena tanpa
+            langkah tersebut tidak akan tercapai tujuan yang diinginkan yaitu menghasilkan bibit tanaman.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 2 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">Contoh Soal 2</div>
+      <div class="card-body">
+        <p class="b">Perhatikan kutipan teks prosedur yang kompleks sebagai berikut ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">Anda ingin menanam pohon buah namun tidak memiliki
+          lahan? Cobalah dengan sistem tanaman buah dalam pot atau yang lebih dikenal dengan tabulampot. Tekniknya cukup
+          sederhana, mudah dan diaplikasikan. Tanaman pun juga lekas berbuah. Caranya pertama kali Anda harus menyiapkan
+          media tanamnya baik berupa pot, tong dan lainnya. Isi dengan tanah yang dicampur oleh kompos.</blockquote>
+        <p class="b">Apabila teks tersebut merupakan sebuah penggalan drama, maka tempat yang sangat tepat untuk
+          dijadikan latar adalah:</p>
+        <ol style="list-style-type: upper-alpha">
+          <li>Kantin</li>
+          <li>Kelas</li>
+          <li>Pasar</li>
+          <li>Laboratorium</li>
+          <li>Kebun</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan2" role="button" aria-expanded="false"
+          aria-controls="pembahasan2"> Pembahasan </a>
+        <div class="collapse" id="pembahasan2">
+          <div class="card card-body">
+            <h5>Jawaban: E</h5>
+            <p class="b">salah satu unsur intrinsik yang wajib dimasukkan ke dalam narasi adalah latar. Latar bisa
+              mendeskripsikan tentang tempat, waktu dan susana. Pada pernyataan di atas yang ditanyakan adalah tempat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 3 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 3
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan drama singkat berikut ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">
+          Naina : Hai sandrina, apakah kamu mengikuti program magister di UI?<br />
+          Sandrina : Iya Naina, kenapa memangnya?<br />
+          Naina : Saya sudah mendaftar, hanya saja bingung bagaimana cara membayarnya.<br />
+          Sandrina: Bayar di ATM lebih simpel dan tidak usah mengantri.<br />
+          Naina : Oh bisa ya Sandrina ?<br />
+          Sandrina : Iya sangat mudah, cara pembayarannya kamu harus masuk ke menu transaksi lainnya di layar ATM,
+          kemudian pilih menu pembayaran, pilih menu pendidikan, setelah itu masukkan nomor pelanggan.<br />
+          Naina : Maksud dari nomor pelanggan itu apa?<br />
+          Sandrina: Masukkan kode nomor registrasi dan institusi. Contohnya, UI memiliki kode 050 dan setelah itu
+          masukkan nomor registrasi yang kami miliki. Setelah itu, ikuti petunjuknya saja, mudah kan?<br />
+        </blockquote>
+        <p class="b">Judul teks prosedur kompleks di atas adalah:</p>
+        <ul style="list-style-type: upper-alpha;">
+          <li>Tata cara mendaftar program magister UI</li>
+          <li>Prosedur registrasi ujian</li>
+          <li>Tata cara bagaimana membuka rekening di bank.</li>
+          <li>Tata cara mencairkan dana di bank.</li>
+          <li>Prosedur pembayaran registrasi program magister UI via ATM</li>
+        </ul>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan3" role="button" aria-expanded="false"
+          aria-controls="pembahasan3">
+          Pembahasan
+        </a>
+        </p>
+        <div class="collapse" id="pembahasan3">
+          <div class="card card-body">
+            <h5>Jawaban: C</h5>
+            <p class="b">
+              terdapat tujuan dan langkah-langkah yang muncul pada teks drama. Tujuan sangat kompleks berada di dialog
+              ketiga tuturan sandrina yaitu mudahnya melakukan pembayaran registrasi di UI via ATM.
+              <br />
+              Berdasarkan paparan tersebut, maka jawaban yang paling tepat adalah C yaitu prosedur pembayaran registrasi
+              program magister UI via ATM.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 4 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 4
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan paragraf berikut ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">
+          Inilah beberapa tips dan trik dalam membuat status yang berkualitas di media sosial. Harap diperhatikan
+          bahwasanya isi status seseorang menggambarkan bagaimana kepribadian pemiliknya. Hal yang menarik saat ini
+          adalah banyaknya perusahaan yang menjadikan status seseorang di media sosial sebagai bagian dari riwayat
+          hidupnya. Perusahaan juga dapat dengan mudah mengetahui etos kerja dan karakter dari pemilik akun media
+          sosial.Oleh sebab itu, sekarang harus mengisi media sosial dengan hal yang bermanfaat dan berkualitas.
+        </blockquote>
+        <p class="b">Kutipan teks prosedur di atas menginformasikan tentang:</p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Manfaat status yang ada di media sosial.</li>
+          <li>Status merupakan gambaran pribadi dan karakter pemiliknya.</li>
+          <li>Status merupakan riwayat hidup pemiliknya.</li>
+          <li>Cara menjaga status di media sosial agar berkualitas.</li>
+          <li>Status harus mampu meningkatkan kualitas pemiliknya.</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan4" role="button" aria-expanded="false"
+          aria-controls="pembahasan4">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan4">
+          <div class="card card-body">
+            <h5>Jawaban: A</h5>
+            <p class="b">
+              informasi adalah sekumpulan fakta atau data yang diorganisasi atau diolah dengan cara tertentu sehingga
+              memiliki arti bagi sang penerima.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 5 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 5
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan teks berikut!</p>
+        <p class="b text-center">Proses Pembuatan nata de coco</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">
+          1) Saring air kelapa menggunakan saringan halus. Ini untuk menghilangkan, pecahan tempurung, serat sabut, atau
+          kotoran lainnya.<br />
+          2) Panaskan air kelapa tadi selama 30 menit. <br />
+          3) Selama pemanasan berlangsung masukkan bahan tambahan lainnya.<br />
+          4) Sebelum pemanasan selesai tambahkan asam cuka hingga mencapai pH tertentu.<br />
+          5) Pemanasan harus berhenti jika sudah mencapai pH yang dimaksud.<br />
+        </blockquote>
+        <p class="b">Kelompok kata kerja imperatif pada teks prosedur di atas adalah…</p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Saringan, Pemanasan, Berhenti</li>
+          <li>Tambahkan, Panaskan, Masukkan</li>
+          <li>Mencapai, Menghilangkan, Berlangsung</li>
+          <li>Saringan, Berlangsung, Mencapai</li>
+          <li>Pemanasan, Masukkan, Mencapai</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan5" role="button" aria-expanded="false"
+          aria-controls="pembahasan5">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan5">
+          <div class="card card-body">
+            <h5>Jawaban: B</h5>
+            <p class="b">
+              Kata kerja imperatif adalah kata kerja yang digunakan untuk memberi perintah atau instrukti. Bentuk yang
+              digunakan biasanya sama dengan bentuk dasar
+              maka yang termasuk kata kerja imperatif adalah <span style="font-weight:bold">Tambahkan, Panaskan,
+                Masukkan</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 6 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 6
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan teks berikut!</p>
+        <p class="b text-center">Proses Pembuatan nata de coco</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">
+          1) Saring air kelapa menggunakan saringan halus. Ini untuk menghilangkan, pecahan tempurung, serat sabut, atau
+          kotoran lainnya.<br />
+          2) Panaskan air kelapa tadi selama 30 menit. <br />
+          3) Selama pemanasan berlangsung masukkan bahan tambahan lainnya.<br />
+          4) Sebelum pemanasan selesai tambahkan asam cuka hingga mencapai pH tertentu.<br />
+          5) Pemanasan harus berhenti jika sudah mencapai pH yang dimaksud.<br />
+        </blockquote>
+        <p class="b">Urutan langkah–langkah yang benar pembuatan nata de coco dari air kelapa adalah....</p>
+        <ol style="list-style-type:upper-alpha">
+          <li>Pendidihan, Pewadahan, Penyaringan, Pendinginan, Penutupan.</li>
+          <li>Penyaringan, Pemanasan, Penambahan Bahan</li>
+          <li>Pendinginan, Pewadahan, Penyaringan, Pendidihan, Penutupan.</li>
+          <li>Penyaringan, Pendidihan, Pewadahan, Penutupan, Pendinginan.</li>
+          <li>Pewadahan, Penutupan, Penyaringan, Pendidihan, Penutupan.</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan6" role="button" aria-expanded="false"
+          aria-controls="pembahasan6">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan6">
+          <div class="card card-body">
+            <h5>Jawaban: B</h5>
+            <p class="b">Teks prosedur adalah teks yang berisi cara, tujuan untuk membuat atau melakukan sesuatu hal
+              dengan langkah demi langkah yang tepat secara berurutan sehingga menghasilkan suatu tujuan yang
+              diinginkan. Langkah-langkah dalam teks prosedur harus berurutan agar mencapai tujuan yang
+              diinginkan.<br />
+              1) <span style="font-weight: bold;">Saring</span> air kelapa menggunakan saringan halus. Ini untuk
+              menghilangkan, pecahan tempurung, serat sabut, atau kotoran lainnya.<br />
+              2) <span style="font-weight: bold;">Panaskan</span> air kelapa tadi selama 30 menit. <br />
+              3) Selama pemanasan berlangsung <span style="font-weight: bold;">masukkan bahan tambahan lainnya</span>.
+              <br />
+              4) Sebelum pemanasan selesai tambahkan asam cuka hingga mencapai pH tertentu.<br />
+              5) Pemanasan harus berhenti jika sudah mencapai pH yang dimaksud.<br />
+              Berdasarkan 5 langkah dalam teks di atas langkah-langkah yang benar dalam pebuatan nata de coco yaitu
+              penyaringan air kelapa, pemanasan air kelapa tersebut, penambahan bahan tambahan. Langkah-langkah itu
+              harus berurutan agar proses pembuatan nata de coco berhasil dilakukan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 7 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 7
+      </div>
+      <div class="card-body">
+        <p class="b">Cermatilah teks berikut ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">Batang pisang dikerat cukup dalam, kemudian
+          dirobohkan pelan-pelan. Caranya dengan satu pelepah ditarik daunnya hingga roboh. Usahakan agar pisang jangan
+          sampai terbentur tanah agar tidak rusak. Sebelum tandan dekat ke tanah, ujung nya pegang dengan tangan atau
+          disangga dengan alat yang sudah disediakan.</blockquote>
+        <p class="b">
+          Kutipan teks di atas merupakan bagian dari:
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Cara memanen buah pisang.</li>
+          <li>Manfaat buah pisang selain sebagai buah meja.</li>
+          <li>Cara memanfaatkan buah pisang.</li>
+          <li>Tanda-tanda buah pisang sudah siap dipanen.</li>
+          <li>Buah pisang sebagai bahan keripik pisang.</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan7" role="button" aria-expanded="false"
+          aria-controls="pembahasan7">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan7">
+          <div class="card card-body">
+            <h5>Jawaban: A</h5>
+            <p class="b">teks prosedur di atas berbicara tentang bagaimana cara memanen pisang yang baik dan benar agar
+              tidak rusak dan bisa dimanfaatkan dengan sebagaimana mestinya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 8 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 8
+      </div>
+      <div class="card-body">
+        <p class="b">Bacalah teks prosedur di bawah ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">Siapkan daun cincau di ember, lalu siram dengan air
+          yang mendidih. Selama proses penyiraman aduk daun dengan alat hingga proses pelayuan merata. Air ini akan
+          membuat daun yang semula keras dan kaku menjadi lemas dan tidak terlalu mengkilap. Air panas juga membantu
+          proses penguapan sehingga aroma daun cincau bisa berkurang.</blockquote>
+        <p class="b">Kutipan teks prosedur di atas berbicara tentang? </p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Pemilihan bahan pembuatan cincau.</li>
+          <li>Manfaat ekonomis membuat cincau.</li>
+          <li>Bahan-bahan pembuatan cincau.</li>
+          <li>Perlengkapan untuk pembuatan cincau.</li>
+          <li>Salah satu langkah pembuatan cincau.</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan8" role="button" aria-expanded="false"
+          aria-controls="pembahasan8">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan8">
+          <div class="card card-body">
+            <h5>Jawaban: C</h5>
+            <p class="b"> contoh soal teks prosedur dan jawabannya di atas membahas tentang langkah-langkah yang runtut
+              tentang bagaimana pembuatan cincau. Prosesnya memang masih panjang, namun jawaban yang paling tepat adalah
+              C.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 9 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 9
+      </div>
+      <div class="card-body">
+        <p class="b"> Cermatilah teks prosedur di bawah ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">Tanaman selada adalah tanaman yang tahan dalam
+          keadaan segar selama beberapa waktu. Syaratnya, pada saat menyimpan sebaiknya diletakkan di tempat yang
+          dingin. Letakkan butiran atau remukan es pada tempat tersebut. </blockquote>
+        <p class="b">Pernyataan diatas merupakan tahap kegiatan yang disebut:</p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Pembersihan</li>
+          <li>Pengelompokan</li>
+          <li>Penyimpanan</li>
+          <li>Pengemasan</li>
+          <li>Pemasaran</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan9" role="button" aria-expanded="false"
+          aria-controls="pembahasan9">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan9">
+          <div class="card card-body">
+            <h5>Jawaban: C</h5>
+            <p class="b">
+              contoh soal procedure text di atas membahas tentang bagaimana cara menyimpan tanaman selada, yaitu dengan
+              cara diletakkan di tempat yang dingin dan lain sebagainya, sehingga C adalah jawaban yang paling tepat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Soal 10 -->
+    <div class="card mb-4">
+      <div class="card-header fw-bold">
+        Contoh Soal 10
+      </div>
+      <div class="card-body">
+        <p class="b">Perhatikan teks prosedur di bawah ini!</p>
+        <blockquote style="background-color:#eeee; padding: 10px;">Siapkan baskom yang sudah dibersihkan, kemudian cuci
+          daun cincau yang baru saja dipetik dan masukkan ke dalamnya. Setelah itu remas dengan tangan yang sudah dicuci
+          bersih dan berikan air matang secara bertahap. Kemudian remas hingga terasa lekat di tangan. Campurkan irisan
+          daun pandang pada saat melakukan pelumatan. Setelah cairan kental gelatin terbentuk, maka saring dan tampung
+          pada tempat yang telah disiapkan. Pelumasan dan penyaringan diteruskan hingga gelatin tidak terasa lekat lagi.
+        </blockquote>
+        <p class="b">Kata hubung yang tepat dalam teks di atas adalah:</p>
+        <ol style="list-style-type: upper-alpha;">
+          <li>Kemudian, sehingga, dan</li>
+          <li>Siapkan, masukkan, campurkan</li>
+          <li>Kemudian, siapkan, disaring</li>
+          <li>Setelah, campurkan, ditampung</li>
+          <li>Campurkan, dan disiapkan.</li>
+        </ol>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#pembahasan10" role="button" aria-expanded="false"
+          aria-controls="pembahasan10">
+          Pembahasan
+        </a>
+        <div class="collapse" id="pembahasan10">
+          <div class="card card-body">
+            <h5>Jawaban:A</h5>
+            <p class="b">
+              kata hubung yang dapat disebut dalam teks di atas adalah kata kemudian, sehingga, dan
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
